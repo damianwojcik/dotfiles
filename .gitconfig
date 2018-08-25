@@ -1,0 +1,15 @@
+[user]
+	email = damian.wojcik@agora.pl
+	name = Damian Wójcik
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	front = !sh -c 'git push origin HEAD:refs/for/$0%r=stanis,r=ktomalka,r=agrzywocz'
+    awd = !sh -c 'git push origin HEAD:refs/for/$0%r=kmotloch,r=yelonek,r=mryciak,r=przybytniakp,r=stanis'
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\dwojcik\\Documents\\gitignore_global.txt

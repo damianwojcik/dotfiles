@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "all",
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": ["--login"]
+}
