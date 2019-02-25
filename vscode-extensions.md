@@ -12,3 +12,5 @@ px to rem
 Trailing Spacer
 Vetur
 WakaTime
+Prettier
+Eslint

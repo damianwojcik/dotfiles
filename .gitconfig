@@ -8,8 +8,15 @@
 	st = status
 	br = branch
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	front = !sh -c 'git push origin HEAD:refs/for/$0%r=stanis,r=ktomalka,r=agrzywocz'
-    	awd = !sh -c 'git push origin HEAD:refs/for/$0%r=kmotloch,r=yelonek,r=mryciak,r=przybytniakp,r=stanis'
+	cr = !sh -c 'git push origin HEAD:refs/for/$0%r=ktomalka,r=albal,r=krogala,r=mabucz,r=lrozewicz,r=kmotloch,r=yelonek'
+	z6 = !sh -c 'git push origin HEAD:refs/for/$0%r=ktomalka,r=albal'
+	crkab = !sh -c 'git push origin HEAD:refs/for/$0%r=ktomalka,r=albal,r=krogala,r=mabucz,r=lrozewicz,r=kmotloch,r=yelonek,r=mkabala'
+	crpk = !sh -c 'git push origin HEAD:refs/for/$0%r=pkaczanowski,r=ktomalka,r=albal,r=krogala,r=mabucz,r=lrozewicz,r=kmotloch,r=yelonek'
+	crjsp = !sh -c 'git push origin HEAD:refs/for/$0%r=yelonek'
+	crm = !sh -c 'git push origin HEAD:refs/for/$0%r=mkabala,r=ktomalka,r=albal,r=kmotloch,r=yelonek'
+	z1 = !sh -c 'git push origin HEAD:refs/for/$0%r=ktomalka,r=albal,r=kmotloch,r=yelonek,r=krogala,r=mabucz,r=lrozewicz,r=pkaczanowski,r=mkabala'
+	crback = !sh -c 'git push origin HEAD:refs/for/$0%r=ktomalka,r=albal,r=krogala,r=mabucz,r=lrozewicz,r=kmotloch,r=yelonek,r=mkabala,r=pkaczanowski'
+
 [core]
 	autocrlf = true
 	excludesfile = C:\\Users\\dwojcik\\Documents\\gitignore_global.txt
