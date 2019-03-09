@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Night Owl No Italics",
     "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDelete": false,
     "editor.renderWhitespace": "all",
@@ -13,10 +12,15 @@
         "*.js": "javascriptreact"
     },
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.shellArgs.windows": ["--login"],
+    "terminal.integrated.shellArgs.windows": [
+        "--login"
+    ],
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
     "prettier.tabWidth": 4,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "prettier.endOfLine": "lf",
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
 }
