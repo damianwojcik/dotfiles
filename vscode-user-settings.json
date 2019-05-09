@@ -2,6 +2,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDelete": false,
     "editor.renderWhitespace": "all",
+    "emmet.includeLanguages": {"twig": "html"},
     "emmet.syntaxProfiles": {
         "javascript": "javascriptreact",
         "xml": {
@@ -12,15 +13,37 @@
         "*.js": "javascriptreact"
     },
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "--login"
-    ],
+    "terminal.integrated.shellArgs.windows": ["--login"],
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 2,
     "prettier.endOfLine": "lf",
     "prettier.singleQuote": true,
     "prettier.printWidth": 120,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "prettier.trailingComma": "all",
+
+    "eslint.enable": true,
+    "files.exclude": {
+        "node_modules": true,
+        ".npm-offline-cache": true
+    },
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.formatOnSave": true
+    },
+    "vetur.format.options.useTabs": false,
+    "vetur.format.options.tabSize": 2,
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+          "singleQuote": true,
+          "trailingComma": "all"
+        },
+        "prettyhtml": {
+            "printWidth": 120
+        }
+    },
+    "workbench.colorTheme": "Night Owl"
 }
