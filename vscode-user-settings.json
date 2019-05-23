@@ -19,7 +19,6 @@
     "prettier.tabWidth": 2,
     "prettier.endOfLine": "lf",
     "prettier.singleQuote": true,
-    "prettier.printWidth": 120,
     "prettier.trailingComma": "all",
 
     "eslint.enable": true,
@@ -29,6 +28,9 @@
     },
     "editor.formatOnSave": false,
     "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
         "editor.formatOnSave": true
     },
     "[vue]": {
@@ -41,9 +43,6 @@
           "singleQuote": true,
           "trailingComma": "all"
         },
-        "prettyhtml": {
-            "printWidth": 120
-        }
     },
-    "workbench.colorTheme": "Night Owl"
+    "workbench.colorTheme": "Atom One Dark"
 }
