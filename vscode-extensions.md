@@ -2,6 +2,7 @@ Themes: Cobalt2 / Night Owl
 Auto Close Tag
 Better Comments
 Bracket Pair Colorizer
+Macros
 Calculate
 ES7 React
 Import Cost
