@@ -2,6 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDelete": false,
   "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
   "emmet.includeLanguages": { "twig": "html" },
   "emmet.syntaxProfiles": {
     "javascript": "javascriptreact",
